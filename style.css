@@ -1,0 +1,437 @@
+:root{
+    --cor_verde_univille:rgb(103, 190, 56);
+    --cor_preto_lcd: rgb(44, 49, 45);
+    --cor_branco_lcd_ligado: rgb(156,169,160);
+}
+
+.inconsolata-normal {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.inter-black {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: italic;
+  }
+
+.inter-black-options {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style:bolder;
+  }
+
+.inter-black-controls {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: bolder;
+  }
+
+.inter-black-actions {
+font-family: "Inter", sans-serif;
+font-optical-sizing: auto;
+font-weight: 800;
+font-style: bolder;
+font-size: 20px;
+}
+
+html {
+    background-color: black;
+    color:  var(--cor_preto_lcd) ;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+#CONSOLE_BOX{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: absolute;
+
+    background-color: transparent;
+    border: 5px solid #444;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+
+    background-color: rgb(165, 165, 165);
+    border-radius: 20px 20px 0px 0px;
+    border-right: 10px solid beige;
+    border-left: 10px solid beige;
+
+    height: 90vh;
+    width: 80vw;
+    
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+#CABECALHO{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    text-align: center;
+
+    height: 15%;
+    width: 77%;
+
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    border-radius: 0px 0px 10px 10px;
+
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#Logo-Texto{
+    font-size: 25px;
+    color: white;
+}
+
+#Logo-Univille{
+    width: 32px;
+    height: 32px;
+    filter: saturate(0) hue-rotate(200deg) brightness(100.0);
+    margin: 0px 10px 0px 0px;
+}
+
+#TELA_DO_DISPOSITIVO {
+    background-color: rgb(93, 110, 99);
+    margin: 20px;
+    padding: 10px;
+
+    border: 18px solid black;
+    height: 50%;
+    width: 70%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    overflow: auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8), 
+                inset 0 0 5px rgba(255, 255, 255, 0.3),
+                inset 0 05px rgba(0, 0, 0, 0.5);
+    
+    background-image: radial-gradient(circle, rgba(255, 255, 255, 0.05), rgba(10, 10, 10, 0.5) 70%);
+    background-size: 200% 200%;
+    animation: crt-glow 1.5s infinite alternate;
+}
+
+@keyframes crt-glow {
+    0% {
+        filter: brightness(0.95) contrast(1.1);
+    }
+    100% {
+        filter: brightness(1) contrast(1.2);
+    }
+}
+
+#TELA_DO_DISPOSITIVO::-webkit-scrollbar {
+    width: 15px;
+    position: absolute;
+}
+
+#TELA_DO_DISPOSITIVO::-webkit-scrollbar-track {
+    background: rgb(93, 110, 99) ;
+    border-left: 3px solid var(--cor_preto_lcd);
+
+}
+
+#TELA_DO_DISPOSITIVO::-webkit-scrollbar-thumb {
+    background-color: var(--cor_preto_lcd);
+    width: 6px;
+    height: 6px;
+}
+
+#TELA_DO_DISPOSITIVO::-webkit-scrollbar-thumb:hover {
+    background-color: var(--cor_preto_lcd);
+}
+
+#BOTOES_DO_DISPOSITIVO{
+    background-color: blueviolet;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    height: 45%;
+    width: 77%;
+
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    border-top: 4px solid black;
+    border-radius: 10px 10px 0px 0px;
+
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#ACTIONS{
+
+    background-color: var(--cor_verde_univille);
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+
+    margin: 20px 20px 20px 20px;
+
+    height: 35%;
+    width: 30%;
+
+    padding: 10px;
+
+    border-radius: 8% 8% 50% 50%;
+    
+}
+
+#ENTER, #START{
+    margin-top: 15px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+
+#OPTIONS {
+    position: relative;
+    z-index: 1;
+    background-color: var(--cor_verde_univille);
+    height: 65%;
+    width: 40%;               
+    margin: 30px 50px 20px 0px;
+    padding: 0px;
+    display: flex;       
+    flex-direction: column;                      
+    justify-content: center;      
+    align-items: center;    
+    position: relative; 
+    z-index: 1; 
+    transform: rotate(45deg);   
+    border-radius: 100%;         
+}
+
+.OPCAO{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    position: relative;
+    transform: rotate(-45deg); 
+}
+
+
+
+#CONTROLS {
+    background-color: var(--cor_verde_univille);
+    height: 65%;
+    width: 40%;          
+    margin: 30px 0px 20px 50px;
+    padding: 0px;
+    display: flex;       
+    flex-direction: column;                      
+    justify-content: center;      
+    align-items: center;                     
+    transform: rotate(-45deg);
+
+    border-radius: 100%;
+}
+
+
+#DOWN, #UP, #LEFT, #RIGHT{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    transform: rotate(45deg);
+}
+
+#CONTROLS_UP{
+    margin: 10px 10px 10px 10px;
+    gap: 10px;
+    display: flex;   
+    flex-direction: row;                           
+    justify-content: center;      
+    align-items: center;   
+}
+#CONTROLS_DOWN{
+    margin: 0px 10px 10px 10px;
+    gap: 10px;
+    display: flex;   
+    flex-direction: row;                         
+    justify-content: center;      
+    align-items: center;  
+     
+}
+
+.BTN-ACTION{
+    height: 5vh;             
+    width: 15vh; 
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.BTN-DOER {
+    height: 6vh;      
+    width: 6vh;                 
+    margin: 0;
+    border-radius: 100%;  
+}
+
+.BTN{
+    border: 5px outset black;
+}
+
+.BTN:hover{
+    background-color: rgb(179, 179, 179);
+    
+}
+
+.BTN:active{
+    background-color: grey;
+    
+}
+
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+table{
+    border: 2px solid var(--cor_preto_lcd);
+    border-collapse: collapse;
+    width: 90%;
+    height: 90%;
+
+    text-align: center;
+}
+
+th{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    border: 2px solid var(--cor_preto_lcd);
+    text-align: center;
+
+    background-color: var(--cor_preto_lcd);
+    color: var(--cor_branco_lcd_ligado);;
+    height: 20%;
+}
+
+td {
+   
+    text-align: left;
+    border: 2px solid var(--cor_preto_lcd);
+    text-align: center;
+}
+
+#label-relatorio{
+    background-color: var(--cor_preto_lcd);
+    color: var(--cor_branco_lcd_ligado);;
+}
+
+#tab-cumprida{
+    margin-top: 140px;
+}
+
+#texto-inicial{
+    font-size: 30px;
+    font-style: italic;
+}
+
+#texto-perguntas{
+    margin: 0px;
+    font-size: 22px;
+}
+
+#texto-boas-vindas{
+    margin: 0px;
+    font-size: 23px;
+}
+
+#respostaQ{
+    margin: 0px;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+@media (max-width: 1000px) {
+    #CONSOLE_BOX {
+        width: 700px;
+        height: 800px;
+    }
+}
+
+@media (min-width: 1001px) {
+    #CONSOLE_BOX {
+        width: 700px;
+        height: 800px;
+    }
+}
+
+
+#loader {
+    width: fit-content;
+    font-size: 30px;
+    background: linear-gradient(90deg, var(--cor_preto_lcd) 50%, #0000 0) right/200% 100%;
+    animation: l21 3s infinite linear;
+  }
+  
+#loader::before {
+    content: "Processando...";
+    color: #0000;
+    padding: 0 5px;
+    background: inherit;
+    background-image: linear-gradient(90deg, var(--cor_branco_lcd_ligado) 50%, var(--cor_preto_lcd) 0);
+    -webkit-background-clip: text;
+            background-clip: text;
+  }
+  
+  @keyframes l21 {
+    100% { background-position: left; }
+  }
+
+
+  #turning-on {
+    width: fit-content;
+    font-size: 30px;
+    background: linear-gradient(90deg, var(--cor_preto_lcd) 50%, #0000 0) right/200% 100%;
+    animation: l21 2s infinite linear;
+  }
+  
+#turning-on::before {
+    content: "Iniciando...";
+    color: #0000;
+    padding: 0 5px;
+    background: inherit;
+    background-image: linear-gradient(90deg, var(--cor_branco_lcd_ligado) 50%, var(--cor_preto_lcd) 0);
+    -webkit-background-clip: text;
+            background-clip: text;
+  }
+  
+  @keyframes l21 {
+    100% { background-position: left; }
+  }
+
+.informacoes-adicionais{
+    color: white;
+    margin: 10px 0px 0px 0px;
+}
+
+

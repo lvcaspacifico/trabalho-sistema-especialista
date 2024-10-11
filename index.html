@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Univille's VideogameRecomendations™</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imgs/univille_purple.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet"></head>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+<body>
+    <h1 class="inconsolata-normal informacoes-adicionais">Trabalho 02 - Sistema Especialista</h1>
+    <p class="inconsolata-normal informacoes-adicionais"><u>Alunos:</u> Lucas Reinaldo e Marcelo Fiedler&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>Data:</u> 10/10/2024</p>
+    <p class="inconsolata-normal informacoes-adicionais"><u>Objetivo:</u> Sistema para recomendação de plataforma, estilo de jogo e jogos</p>
+    <div id="CONSOLE_BOX">
+
+        <div id="CABECALHO" class="inter-custom">
+            <a href="imgs/univille.png" >
+                <img src="imgs/univille.png" id="Logo-Univille">
+            </a>
+            <h1 id="Logo-Texto" class="inter-black">Univille's VideogameRecomendations™</h1>
+        </div>
+        
+        <div id="TELA_DO_DISPOSITIVO"  class="inconsolata-normal">
+            <p id="texto-inicial">Sistema Offline</p>
+        </div>
+        
+        <div id="BOTOES_DO_DISPOSITIVO">
+            
+            <div id="CONTROLS">
+                <div id="CONTROLS_UP">
+                    <button class="BTN BTN-DOER inter-black-actions" id="LEFT">◄</button>
+                    
+                    <button class="BTN BTN-DOER inter-black-actions" id="UP">▲</button>
+                    
+                </div>
+                
+                <div id="CONTROLS_DOWN">
+                    <button class="BTN BTN-DOER inter-black-actions" id="DOWN">▼</button>
+                    <button class="BTN BTN-DOER inter-black-actions" id="RIGHT">►</button>
+                    
+                    
+                </div>
+                
+
+            </div>
+            <div id="ACTIONS">
+                <button id="START" class="BTN BTN-ACTION inter-black-controls">START</button>
+                <button id="ENTER" class="BTN BTN-ACTION inter-black-controls">ENTER</button>
+            </div>
+            <div id="OPTIONS">
+                <div id="CONTROLS_UP">
+                    <button class="BTN BTN-DOER inter-black-options OPCAO" value="1">1</button>
+                    <button class="BTN BTN-DOER inter-black-options OPCAO" value="2">2</button>
+                </div>
+                
+                <div id="CONTROLS_DOWN">
+                    <button class="BTN BTN-DOER inter-black-options OPCAO" value="3">3</button>
+                    <button class="BTN BTN-DOER inter-black-options OPCAO" value="4">4</button>
+                </div>
+                
+            </div>
+
+        </div>
+       
+    </div>   
+
+    <script src="script.js"></script>
+    <div class="loading"><!-- Elemento modal para o loading --></div>
+</body>
+</html>

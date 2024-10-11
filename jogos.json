@@ -1,0 +1,172 @@
+[{
+    "Console de Mesa": {
+        "Singleplayer": {
+            "Mundo Aberto": {
+                "Ação e aventura": "Gears 5 (Xbox), Spiderman 2 (Playstation)",
+                "História e RPG": "Cyberpunk 2077 (Xbox, Playstation)"
+            },
+            "História Linear": {
+                "Ação e aventura": "Halo Infinite (Xbox), God of War Ragnarok (Playstation)",
+                "História e RPG": "Final Fantasy XV (Xbox, Playstation)"
+            }
+        },
+        "Multiplayer": {
+            "Solo": {
+                "Mundo Aberto": {
+                    "Ação e aventura": "Fortnite (Xbox, Playstation)",
+                    "História e RPG": "Diablo III: Eternal Collection (Xbox, Playstation)"
+                },
+                "História Linear": {
+                    "Ação e aventura": "Cyberpunk 2077 (Xbox, Playstation)",
+                    "História e RPG": "Elden Ring (Xbox, Playstation)"
+                }
+            },
+            "Time": {
+                "Mundo Aberto": {
+                    "Ação e aventura": "Fortnite (Xbox, Playstation)",
+                    "História e RPG": "Elder Scrolls Online (Xbox, Playstation)"
+                },
+                "História Linear": {
+                    "Ação e aventura": "Final Fantasy XV (Xbox, Playstation)",
+                    "História e RPG": "Final Fantasy XIV (Playstation)"
+                }
+            }
+        }
+    },
+    "Console Portátil": {
+        "Singleplayer": {
+            "Mundo Aberto": {
+                "Ação e aventura": "Zelda: Breath of the Wild (Switch), Monster Hunter Rise (Switch)",
+                "História e RPG": "Pokemon Legends: Arceus (Switch)"
+            },
+            "História Linear": {
+                "Ação e aventura": "Fire Emblem: Three Houses (Switch)",
+                "História e RPG": "Octopath Traveler (Switch)"
+            }
+        },
+        "Multiplayer": {
+            "Solo": {
+                "Mundo Aberto": {
+                    "Ação e aventura": "Fortnite (Switch)",
+                    "História e RPG": "Pokemon Sword and Shield (Switch)"
+                },
+                "História Linear": {
+                    "Ação e aventura": "Splatoon 2 (Switch)",
+                    "História e RPG": "Monster Hunter Generations (Switch)"
+                }
+            },
+            "Time": {
+                "Mundo Aberto": {
+                    "Ação e aventura": "Fortnite (Switch)",
+                    "História e RPG": "Monster Hunter Rise (Switch)"
+                },
+                "História Linear": {
+                    "Ação e aventura": "Splatoon 3 (Switch)",
+                    "História e RPG": "Pokemon Unite (Switch)"
+                }
+            }
+        }
+    },
+    "Consoles de Mesa e Portáteis": {
+        "Singleplayer": {
+            "Mundo Aberto": {
+                "Ação e aventura": "Zelda: Breath of the Wild (Switch), Gears 5 (Xbox)",
+                "História e RPG": "Cyberpunk 2077 (Xbox), Pokemon Legends: Arceus (Switch)"
+            },
+            "História Linear": {
+                "Ação e aventura": "Fire Emblem: Three Houses (Switch), Halo Infinite (Xbox)",
+                "História e RPG": "Octopath Traveler (Switch), Final Fantasy XV (Playstation)"
+            }
+        },
+        "Multiplayer": {
+            "Solo": {
+                "Mundo Aberto": {
+                    "Ação e aventura": "Fortnite (Switch), Apex Legends (Xbox)",
+                    "História e RPG": "Diablo III: Eternal Collection (Switch), Diablo III (Playstation)"
+                },
+                "História Linear": {
+                    "Ação e aventura": "Cyberpunk 2077 (Playstation), Splatoon 2 (Switch)",
+                    "História e RPG": "Elden Ring (Xbox), Monster Hunter Generations (Switch)"
+                }
+            },
+            "Time": {
+                "Mundo Aberto": {
+                    "Ação e aventura": "Fortnite (Switch), Fortnite (Playstation)",
+                    "História e RPG": "Elder Scrolls Online (Xbox), Monster Hunter Rise (Switch)"
+                },
+                "História Linear": {
+                    "Ação e aventura": "Final Fantasy XV (Playstation), Splatoon 3 (Switch)",
+                    "História e RPG": "Final Fantasy XIV (Playstation), Pokemon Unite (Switch)"
+                }
+            }
+        }
+    },
+    "Computador": {
+        "Singleplayer": {
+            "Mundo Aberto": {
+                "Ação e aventura": "Cyberpunk 2077, Red Dead Redemption 2",
+                "História e RPG": "The Witcher 3, Skyrim"
+            },
+            "História Linear": {
+                "Ação e aventura": "Half-Life: Alyx",
+                "História e RPG": "Divinity: Original Sin II"
+            }
+        },
+        "Multiplayer": {
+            "Solo": {
+                "Mundo Aberto": {
+                    "Ação e aventura": "Fortnite, Apex Legends",
+                    "História e RPG": "Diablo III"
+                },
+                "História Linear": {
+                    "Ação e aventura": "Cyberpunk 2077",
+                    "História e RPG": "Elden Ring"
+                }
+            },
+            "Time": {
+                "Mundo Aberto": {
+                    "Ação e aventura": "Fortnite",
+                    "História e RPG": "Elder Scrolls Online"
+                },
+                "História Linear": {
+                    "Ação e aventura": "Final Fantasy XV",
+                    "História e RPG": "Final Fantasy XIV"
+                }
+            }
+        }
+    },
+    "Todos": {
+        "Singleplayer": {
+            "Mundo Aberto": {
+                "Ação e aventura": "Gears 5 (Xbox), Zelda: Breath of the Wild (Switch)",
+                "História e RPG": "The Witcher 3 (PC), Cyberpunk 2077 (Xbox, Playstation)"
+            },
+            "História Linear": {
+                "Ação e aventura": "God of War (Playstation), Halo Infinite (Xbox)",
+                "História e RPG": "Final Fantasy XV (Playstation, Xbox)"
+            }
+        },
+        "Multiplayer": {
+            "Solo": {
+                "Mundo Aberto": {
+                    "Ação e aventura": "Fortnite (Xbox, Playstation, Switch)",
+                    "História e RPG": "Diablo III (Playstation, Xbox)"
+                },
+                "História Linear": {
+                    "Ação e aventura": "Cyberpunk 2077 (Playstation, Xbox)",
+                    "História e RPG": "Elden Ring (Playstation, Xbox)"
+                }
+            },
+            "Time": {
+                "Mundo Aberto": {
+                    "Ação e aventura": "Fortnite (Xbox, Playstation, Switch)",
+                    "História e RPG": "Elder Scrolls Online (Xbox, Playstation)"
+                },
+                "História Linear": {
+                    "Ação e aventura": "Final Fantasy XV (Playstation, Xbox)",
+                    "História e RPG": "Final Fantasy XIV (Playstation)"
+                }
+            }
+        }
+    }
+}]
